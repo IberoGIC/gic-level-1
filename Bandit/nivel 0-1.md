@@ -1,8 +1,7 @@
-# Nivel 0
+# Nivel 0-1
 
 ## Teoría
 
-El objetivo de este nivel es familiarizarse con el comando **ssh** (Secure Shell). Este comando se utiliza para conectarse de manera remota a otra máquina y está diseñado para establecer una comunicación cifrada entre dos hosts en una red insegura.
 
 ## Problema
 
@@ -11,7 +10,7 @@ Ingresar al nivel 0  usando **ssh**
 ## Solución
 
 <details>
-<summary>Ver solución</summary>
+<summary><u>Ver solución</u></summary>
 
 El comando ssh tiene la siguiente estructura:
 
@@ -30,4 +29,3 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 
 </details>
-Siguiente nivel: [nivel 1](./nivel_0-1.md)
