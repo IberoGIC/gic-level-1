@@ -30,4 +30,4 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 
 </details>
-Siguiente nivel: [nivel 1](./nivel_0-1.md)
+[nivel 1](/Bandit/nivel%200-1.md)
