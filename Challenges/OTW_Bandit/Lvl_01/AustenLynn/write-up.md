@@ -11,7 +11,7 @@ El objetivo de este nivel es familiarizarse con algunos comandos basicos del sis
 `man` este comando nos permite ver el manual de otros comandos, dandonos una forma rapida de acceder a la documentación de un comando,
 podriamos usar el comando  `man ssh` para mostrar la acceder a una descripcion y a las banderas de `ssh`.
 
-`ls` este comando nos sirve para listar información de archivos (por default los del directorio actual) incialmente su nombre, con ciertas banderas se puede filtar y ordernar entre otras cosas.
+`ls` Este comando lista los archivos del directorio actual. De forma predeterminada, muestra los nombres de los archivos, pero con diferentes opciones (`-l`, `-a`, entre otras) se puede obtener más información, como permisos, tamaños y fechas de modificación, o incluso listar archivos ocultos.
 
 `cat` este comando nos permite concatenar  archivos a la  salida estandar, en ortras palabras puede leer archivos e imprimirlos a la terminal 
 
