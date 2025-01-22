@@ -21,12 +21,11 @@ un comando como el siguiente:
 ```bash
 ls -a inhere
 ```
-
 El comando nos muestra el archivo `..Hiding-From-You`, entonces lo podemos leer con el siguiente comando:
 
 ```bash
 cat  inhere/..Hiding-From-You
-
 ```
+
 
 </details>
