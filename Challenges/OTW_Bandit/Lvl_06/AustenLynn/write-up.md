@@ -56,7 +56,10 @@ Esto nos lista todos los archivos del mismo tamaño, no ejecutables junto con la
 ./inhere/maybehere07/.file2: ASCII text, with very long lines (1000)
 ```
 
-ahora solo faltaría filtrar por el tipo de archivo, tomando esto en cuenta tenemos que utilizar el operador `|` el cual nos permite pasar el resultado de cierto comando a otro comando en este caso `grep` un comando que nos permite buscar patrones en archivos, es por esto que buscamos la cadena `ASCII`.
+ahora solo faltaría filtrar por el tipo de archivo, tomando esto en cuenta tenemos que utilizar el operador `|` el cual nos permite pasar el resultado de cierto comando a otro comando en este caso `grep` un comando que nos permite buscar patrones en archivos, es por esto que buscamos la cadena `ASCII`. Para terminar simplemente leemos el archivo:
 
+```bash
+cat ./inhere/maybehere07/.file2
+```
 
 </details>
