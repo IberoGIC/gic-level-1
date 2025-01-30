@@ -52,10 +52,10 @@ Podemos deducir que el comando encontró al archivo que estabamos buscando, ahor
 find / -size 33c -user bandit7 -group bandit6 2</dev/null
 ```
 
-Lo que nos da el archivo `./inhere/maybehere07/.file2`, por lo que solo lo tenemos que leer con el siguiente comando:
+Lo que nos da el archivo `/var/lib/dpkg/info/bandit7.password`, por lo que solo lo tenemos que leer con el siguiente comando:
 
 ```bash
-cat ./inhere/maybehere07/.file2
+cat /var/lib/dpkg/info/bandit7.password
 ```
 
 </details>
