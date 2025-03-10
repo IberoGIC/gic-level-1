@@ -17,11 +17,10 @@ El comando `base64` nos permite decodificar cadenas codificadas en base64
 
 <summary>Ver solución</summary>
 
-Para encontrar la contraseña simplemente decodificamos el archivo `data.txt`
+Para encontrar la contraseña simplemente decodificamos el archivo `data.txt`, con la bandera `-d`
 
 ```bash
-base64 data.txt
-
+base64 -d data.txt
 ```
 
 </details>
