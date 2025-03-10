@@ -1,4 +1,4 @@
-# Nivel 8->9
+# Nivel 9->10
 
 ## Problema
 
@@ -20,4 +20,5 @@ Para poder encontrar la candena con los carateres legibles usamos el comando `st
 ```bash
 strings data.txt | grep = 
 ```
+
 </details>
