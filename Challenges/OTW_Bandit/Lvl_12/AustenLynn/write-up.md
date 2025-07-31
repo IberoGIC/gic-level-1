@@ -2,7 +2,7 @@
 
 ## Problema
 
-La contraseña ha almacenada en el archivo `data.txt` tiene lso caracteres rotados  13 posiciones lo que
+La contraseña ha almacenada en el archivo `data.txt` tiene loscaracteres rotados  13 posiciones lo que
 significa que la `A` ahora es `N`, `B` se convierte en `O` y asi sucesivamente.
 
 ## Teoría
