@@ -27,7 +27,14 @@ Para poder acceder al nivel 14, tenemos que descargar la llave privada a nuestro
 ```bash
 scp -P 2220 bandit13@bandit.labs.overthewire.org:sshkey.private .
 ```
-Una vez la tenemos en nuestro ambiente local, podemos usar `ssh` para acceder al nivel con el siguiente comando:
+Una vez la tenemos en nuestro ambiente local, necesitamos modificar los permisos del archivo con el siguiente comando:
+
+```bash
+chmod 600 sshkey.private 
+```
+
+ podemos usar `ssh` para acceder al nivel con el siguiente comando:
+
 
 ```bash
 ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
